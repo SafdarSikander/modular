@@ -1,10 +1,11 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {View} from 'react-native';
+import Modular from './src/Modular';
 
 function App(): JSX.Element {
   return (
-    <View>
-      <Text>Modular</Text>
+    <View style={{flex: 1}}>
+      <Modular />
     </View>
   );
 }
